@@ -47,6 +47,8 @@ I am a **PhD student in [Modeling and Data Science](https://dottorato-mds.campus
 </table>
 </details>
 
+<br />
+
 
 ## Research 
 
