@@ -15,6 +15,8 @@ I am a **PhD student in [Modeling and Data Science](https://dottorato-mds.campus
 <details>
   <summary>Other Experience</summary>
   
+  <br />
+  
 <table>
   <tbody>
     <tr>
