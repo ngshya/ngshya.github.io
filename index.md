@@ -73,12 +73,28 @@ My research interests include: semi-supervised learning, fairness and network sc
 
 ## Education
 
-| | Achievement |
-| :-- | :-- |
-| 2019/10<br/>Present | PhD in Modeling and Data Science <br/>*[Computer Science Department](https://www.cs.unito.it/do/home.pl), [University of Turin](https://www.unito.it/)* |
-| 2014/09<br/>2016/07 | MSc Mathematics <br/>*[Department of Mathematics](https://dipmath.campusnet.unito.it/do/home.pl), [University of Turin](https://www.unito.it/)* |
-| 2013/08<br/>2016/07 | MA Economics <br/>*[Allievi Honors Program](https://www.carloalberto.org/education/allievi-honors-program/overview/), [Collegio Carlo Alberto](https://www.carloalberto.org/)* |
-
-
-
+<table>
+  <tbody>
+    <tr>
+      <td style="text-align: left;">2019/10<br/>Present</td>
+      <td style="text-align: left;">
+        PhD in Modeling and Data Science <br/>
+        <em><a href="https://www.cs.unito.it/do/home.pl">Computer Science Department</a>, University of Turin</em>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left;">2014/09<br/>2016/07</td>
+      <td style="text-align: left;">
+        MSc Mathematics <br/>
+        <em><a href="https://dipmath.campusnet.unito.it/do/home.pl">Department of Mathematics</a>, University of Turin</em>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left;">2013/08<br/>2016/07</td>
+      <td style="text-align: left;">MA Economics <br/>
+        <em><a href="https://www.carloalberto.org/education/allievi-honors-program/overview/">Allievi Honors Program</a>, <a href="https://www.carloalberto.org/">Collegio Carlo Alberto</a></em>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
