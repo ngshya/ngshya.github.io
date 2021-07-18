@@ -9,13 +9,13 @@ I am a **PhD student in [Modeling and Data Science](https://dottorato-mds.campus
 
 | | Main Experience |
 | :-- | :-- |
-| 2016/08 - Present | Data Science Team Leader, *Data Science and AI, [Intesa Sanpaolo](https://www.intesasanpaolo.com/)* |
-| 2016/02 - 2016/07 | Research Assistant, *IGIER, [Bocconi University](https://www.unibocconi.eu/)* |
+| 2016/08<br/>Present | Data Science Team Leader <br/>*Data Science and AI, [Intesa Sanpaolo](https://www.intesasanpaolo.com/)* |
+| 2016/02<br/>2016/07 | Research Assistant <br/>*IGIER, [Bocconi University](https://www.unibocconi.eu/)* |
 | | **Minor Experience** |
-| 2018/12 - 2019/12 | Textbooks Proofreader, *[Loescher Editore](https://www.loescher.it/)* |
-| 2015/10 - 2016/03 | Strategy Thinker, *Innovation and Competitiveness, [University of Turin](https://www.unito.it/)* |
-| 2012/05 - 2013/09 | Teaching Assistant, *[Department of Mathematics](https://dipmath.campusnet.unito.it/do/home.pl), [University of Turin](https://www.unito.it/)* |
-| 2011/10 - 2014/05 | Mathematical Olympiad Trainer, *[Associazione Subalpina Mathesis](http://www.associazionesubalpinamathesis.it/en/)* |
+| 2018/12<br/>2019/12 | Textbooks Proofreader <br/>*[Loescher Editore](https://www.loescher.it/)* |
+| 2015/10<br/>2016/03 | Strategy Thinker <br/>*Innovation and Competitiveness, [University of Turin](https://www.unito.it/)* |
+| 2012/05<br/>2013/09 | Teaching Assistant <br/>*[Department of Mathematics](https://dipmath.campusnet.unito.it/do/home.pl), [University of Turin](https://www.unito.it/)* |
+| 2011/10<br/>2014/05 | Mathematical Olympiad Trainer <br/>*[Associazione Subalpina Mathesis](http://www.associazionesubalpinamathesis.it/en/)* |
 
 
 ## Research 
@@ -27,9 +27,9 @@ My research interests include: semi-supervised learning, fairness and network sc
 
 | | Achievement |
 | :-- | :-- |
-| 2019/10 - Present | PhD in Modeling and Data Science, *[University of Turin](https://www.unito.it/)* |
-| 2014/09 - 2016/07 | MSc Mathematics, *[University of Turin](https://www.unito.it/)* |
-| 2013/08 - 2016/07 | MA Economics, [Allievi Honors Program](https://www.carloalberto.org/education/allievi-honors-program/overview/), *[Collegio Carlo Alberto](https://www.carloalberto.org/)* |
+| 2019/10<br/>Present | PhD in Modeling and Data Science <br/>*[University of Turin](https://www.unito.it/)* |
+| 2014/09<br/>2016/07 | MSc Mathematics <br/>*[University of Turin](https://www.unito.it/)* |
+| 2013/08<br/>2016/07 | MA Economics, [Allievi Honors Program](https://www.carloalberto.org/education/allievi-honors-program/overview/) <br/>*[Collegio Carlo Alberto](https://www.carloalberto.org/)* |
 
 
 
