@@ -7,7 +7,7 @@ I am a **PhD student in [Modeling and Data Science](https://dottorato-mds.campus
 
 ## Work Experience
 
-| | Relevant Experience |
+| | Main Experience |
 | :-- | :-- |
 | 2016/08<br/>Present | Data Science Team Leader <br/>*Data Science and Artificial Intelligence Department, [Intesa Sanpaolo](https://www.intesasanpaolo.com/)* |
 | 2016/02<br/>2016/07 | Research Assistant <br/>*Innocenzo Gasparini Institute for Economic Research, [Bocconi University](https://www.unibocconi.eu/)* |
@@ -15,12 +15,14 @@ I am a **PhD student in [Modeling and Data Science](https://dottorato-mds.campus
 <details>
   <summary>Other Experience</summary>
   
-| | Other Experience |
-| :-- | :-- |
-| 2018/12<br/>2019/12 | Textbooks Proofreader <br/>*[Loescher Editore](https://www.loescher.it/)* |
-| 2015/10<br/>2016/03 | Strategy Thinker <br/>*Innovation and Competitiveness Office, [University of Turin](https://www.unito.it/)* |
-| 2012/05<br/>2013/09 | Teaching Assistant <br/>*[Department of Mathematics](https://dipmath.campusnet.unito.it/do/home.pl), [University of Turin](https://www.unito.it/)* |
-| 2011/10<br/>2014/05 | Mathematical Olympiad Trainer <br/>*[Associazione Subalpina Mathesis](http://www.associazionesubalpinamathesis.it/en/)* |
+<table>
+  <tbody>
+    <tr><td style="text-align: left;">2018/12<br/>2019/12</td><td style="text-align: left;">Textbooks Proofreader <br/>*[Loescher Editore](https://www.loescher.it/)*</td>
+    <tr><td style="text-align: left;">2015/10<br/>2016/03</td><td style="text-align: left;">Strategy Thinker <br/>*Innovation and Competitiveness Office, [University of Turin](https://www.unito.it/)*</td>
+    <tr><td style="text-align: left;">2012/05<br/>2013/09</td><td style="text-align: left;">Teaching Assistant <br/>*[Department of Mathematics](https://dipmath.campusnet.unito.it/do/home.pl), [University of Turin](https://www.unito.it/)*</td>
+    <tr><td style="text-align: left;">2011/10<br/>2014/05</td><td style="text-align: left;">Mathematical Olympiad Trainer <br/>*[Associazione Subalpina Mathesis](http://www.associazionesubalpinamathesis.it/en/)*</td>
+</table>
+  </tbody>
 </details>
 
 
