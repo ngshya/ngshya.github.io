@@ -20,7 +20,7 @@ I am a **PhD student in [Modeling and Data Science](https://dottorato-mds.campus
       <td style="text-align: left;">2016/02<br/>2016/07</td>
       <td style="text-align: left;">
         Research Assistant <br/>
-        <em>IGIER, <a href="https://www.unibocconi.eu/">Bocconi University</a></em>
+        <em><a href="http://www.igier.unibocconi.it/">IGIER, Bocconi University</a></em>
       </td>
     </tr>
   </tbody>
@@ -50,7 +50,7 @@ I am a **PhD student in [Modeling and Data Science](https://dottorato-mds.campus
     <tr>
       <td style="text-align: left;">2012/05<br/>2013/09</td>
       <td style="text-align: left;">Teaching Assistant <br/>
-        <em><a href="https://dipmath.campusnet.unito.it/do/home.pl">Department of Mathematics</a>, <a href="https://www.unito.it/">University of Turin</a></em>
+        <em><a href="https://dipmath.campusnet.unito.it/do/home.pl">Department of Mathematics, University of Turin</a></em>
       </td>
     </tr>
     <tr>
@@ -79,20 +79,20 @@ My research interests include: semi-supervised learning, fairness and network sc
       <td style="text-align: left;">2019/10<br/>Present</td>
       <td style="text-align: left;">
         PhD in Modeling and Data Science <br/>
-        <em><a href="https://www.cs.unito.it/do/home.pl">Computer Science Department</a>, University of Turin</em>
+        <em><a href="https://www.cs.unito.it/do/home.pl">Computer Science Department, University of Turin</a></em>
       </td>
     </tr>
     <tr>
       <td style="text-align: left;">2014/09<br/>2016/07</td>
       <td style="text-align: left;">
         MSc Mathematics <br/>
-        <em><a href="https://dipmath.campusnet.unito.it/do/home.pl">Department of Mathematics</a>, University of Turin</em>
+        <em><a href="https://dipmath.campusnet.unito.it/do/home.pl">Department of Mathematics, University of Turin</a></em>
       </td>
     </tr>
     <tr>
       <td style="text-align: left;">2013/08<br/>2016/07</td>
       <td style="text-align: left;">MA Economics <br/>
-        <em><a href="https://www.carloalberto.org/education/allievi-honors-program/overview/">Allievi Honors Program</a>, <a href="https://www.carloalberto.org/">Collegio Carlo Alberto</a></em>
+        <em><a href="https://www.carloalberto.org/education/allievi-honors-program/overview/">Allievi Honors Program, Collegio Carlo Alberto</a></em>
       </td>
     </tr>
   </tbody>
