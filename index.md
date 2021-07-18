@@ -17,10 +17,32 @@ I am a **PhD student in [Modeling and Data Science](https://dottorato-mds.campus
   
 <table>
   <tbody>
-    <tr><td style="text-align: left;">2018/12<br/>2019/12</td><td style="text-align: left;">Textbooks Proofreader <br/>*[Loescher Editore](https://www.loescher.it/)*</td>
-    <tr><td style="text-align: left;">2015/10<br/>2016/03</td><td style="text-align: left;">Strategy Thinker <br/>*Innovation and Competitiveness Office, [University of Turin](https://www.unito.it/)*</td>
-    <tr><td style="text-align: left;">2012/05<br/>2013/09</td><td style="text-align: left;">Teaching Assistant <br/>*[Department of Mathematics](https://dipmath.campusnet.unito.it/do/home.pl), [University of Turin](https://www.unito.it/)*</td>
-    <tr><td style="text-align: left;">2011/10<br/>2014/05</td><td style="text-align: left;">Mathematical Olympiad Trainer <br/>*[Associazione Subalpina Mathesis](http://www.associazionesubalpinamathesis.it/en/)*</td>
+    <tr>
+      <td style="text-align: left;">2018/12<br/>2019/12</td>
+      <td style="text-align: left;">
+        Textbooks Proofreader <br/>
+        <em><a href="https://www.loescher.it/">Loescher Editore</a></em>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left;">2015/10<br/>2016/03</td>
+      <td style="text-align: left;">
+        Strategy Thinker <br/>
+        <em>Innovation and Competitiveness Office, <a href="https://www.unito.it/">University of Turin</a></em>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left;">2012/05<br/>2013/09</td>
+      <td style="text-align: left;">Teaching Assistant <br/>
+        <em><a href="https://dipmath.campusnet.unito.it/do/home.pl">Department of Mathematics</a>, <a href="https://www.unito.it/">University of Turin</a></em>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left;">2011/10<br/>2014/05</td>
+      <td style="text-align: left;">Mathematical Olympiad Trainer <br/>
+        <em><a href="http://www.associazionesubalpinamathesis.it/en/">Associazione Subalpina Mathesis</a></em>
+    </td>
+    </tr>
 </table>
   </tbody>
 </details>
