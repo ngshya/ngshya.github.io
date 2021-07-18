@@ -24,6 +24,7 @@ My research interests include: semi-supervised learning, fairness and network sc
 
 
 ## Education
+
 | | Achievement |
 | :-- | :-- |
 | 2019/10 - Present | PhD in Modeling and Data Science, *[University of Turin](https://www.unito.it/)* |
