@@ -29,7 +29,7 @@ My research interests include: semi-supervised learning, fairness and network sc
 | :-- | :-- |
 | 2019/10<br/>Present | PhD in Modeling and Data Science <br/>*[Computer Science Department](https://www.cs.unito.it/do/home.pl), [University of Turin](https://www.unito.it/)* |
 | 2014/09<br/>2016/07 | MSc Mathematics <br/>*[Department of Mathematics](https://dipmath.campusnet.unito.it/do/home.pl), [University of Turin](https://www.unito.it/)* |
-| 2013/08<br/>2016/07 | MA Economics <br/>[Allievi Honors Program](https://www.carloalberto.org/education/allievi-honors-program/overview/), *[Collegio Carlo Alberto](https://www.carloalberto.org/)* |
+| 2013/08<br/>2016/07 | MA Economics <br/>*[Allievi Honors Program](https://www.carloalberto.org/education/allievi-honors-program/overview/), [Collegio Carlo Alberto](https://www.carloalberto.org/)* |
 
 
 
