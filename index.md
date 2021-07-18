@@ -43,8 +43,8 @@ I am a **PhD student in [Modeling and Data Science](https://dottorato-mds.campus
         <em><a href="http://www.associazionesubalpinamathesis.it/en/">Associazione Subalpina Mathesis</a></em>
     </td>
     </tr>
-</table>
   </tbody>
+</table>
 </details>
 
 
