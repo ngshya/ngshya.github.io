@@ -1,4 +1,4 @@
-# About Me
+## About Me
 
 <img align="left" src="syang-wb-c.jpg" alt="Shuyi Yang" width="100" id="personal-photo">
 
