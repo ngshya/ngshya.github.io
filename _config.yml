@@ -2,3 +2,12 @@ theme: jekyll-theme-minimal
 
 title: Shuyi Yang
 description: I love training machine learning models to solve real world problems!
+
+urls:
+    linkedin: https://www.linkedin.com/in/shuyiyang/
+    medium: https://medium.com/@ngshya
+    github: https://github.com/ngshya
+
+contacts:
+    unito: shuyi.yang@unito.it
+    isp: shuyi.yang@intesasanpaolo.com
