@@ -1,4 +1,4 @@
-## Short Bio 
+# About Me
 
 I am a **PhD student in Modeling and Data Science** at [University of Turin](https://www.unito.it/). Outside of Academia, I currently work as a **Data Scientist** at the "Data Science and Artificial Intelligence" department of [Intesa Sanpaolo](https://www.intesasanpaolo.com/) which is an Italian commercial banking group. Inside the company, my teams develop end-to-end machine learning solutions (exploration, implementation and deploy) in different areas of the company, delivering actionable insights by merging technical knowledge with the expertise of the business units.
 
