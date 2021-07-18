@@ -1,3 +1,7 @@
+---
+title: Shuyi Yang
+---
+
 ## About Me
 
 <img src="syang-wb-c.jpg" alt="Shuyi Yang" width="100" id="personal-photo">
