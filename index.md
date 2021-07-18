@@ -7,7 +7,7 @@ I am a **PhD student in [Modeling and Data Science](https://dottorato-mds.campus
 
 ## Work Experience
 
-| | Main Experience |
+| | Relevant Experience |
 | :-- | :-- |
 | 2016/08<br/>Present | Data Science Team Leader <br/>*Data Science and Artificial Intelligence Department, [Intesa Sanpaolo](https://www.intesasanpaolo.com/)* |
 | 2016/02<br/>2016/07 | Research Assistant <br/>*Innocenzo Gasparini Institute for Economic Research, [Bocconi University](https://www.unibocconi.eu/)* |
