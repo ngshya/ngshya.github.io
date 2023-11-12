@@ -17,7 +17,7 @@ I am currently employed by [Intesa Sanpaolo](https://www.intesasanpaolo.com/) in
       <td style="text-align: left;">2023/01<br/>2023/09</td>
       <td style="text-align: left;">
         Adjunct Professor <br/>
-        <em>II level University Master <a href="">HumanAIze</a>, Polytechnic University of Turin</em>
+        <em>II level University Master HumanAIze, Polytechnic University of Turin</em>
       </td>
     </tr>
     <tr>
