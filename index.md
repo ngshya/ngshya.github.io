@@ -4,7 +4,7 @@ title: Shuyi Yang
 
 ## About Me
 
-<img src="syang-wb-c.jpg" alt="Shuyi Yang" width="100" id="personal-photo">
+<img src="shuyi.jpg" alt="Shuyi Yang" width="100" id="personal-photo">
 
 I am currently employed by [Intesa Sanpaolo](https://www.intesasanpaolo.com/) in the **Data Science and Artificial Intelligence** department. My teams deliver customized end-to-end machine learning solutions (exploration, implementation, and deployment) in different areas of the company, providing actionable insights by combining technical knowledge with the expertise of the business units.
 
@@ -17,7 +17,7 @@ I am currently employed by [Intesa Sanpaolo](https://www.intesasanpaolo.com/) in
       <td style="text-align: left;">2023/01<br/>2023/09</td>
       <td style="text-align: left;">
         Adjunct Professor <br/>
-        <em>II level University Master HumanAIze, Polytechnic University of Turin</em>
+        <em>II level University Master <a href="https://www.polito.it/ateneo/comunicazione-e-ufficio-stampa/poliflash/humanaize-il-primo-master-per-avvicinare-laureate-e-laureati">HumanAIze</a>, <a href="https://www.polito.it/">Polytechnic University of Turin</a></em>
       </td>
     </tr>
     <tr>
