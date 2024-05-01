@@ -4,7 +4,7 @@ title: Shuyi Yang
 
 ## About Me
 
-I am currently employed by [Intesa Sanpaolo](https://www.intesasanpaolo.com/) in the **Data Science and Artificial Intelligence** department. My teams deliver customized end-to-end machine learning solutions (exploration, implementation, and deployment) in different areas of the company, providing actionable insights by combining technical knowledge with the expertise of the business units.
+I am currently employed by [Intesa Sanpaolo](https://www.intesasanpaolo.com/) in the **Data & Artificial Intelligence Office**. My teams deliver customized end-to-end machine learning solutions (exploration, implementation, and deployment) in different areas of the company, providing actionable insights by combining technical knowledge with the expertise of the business units.
 
 
 ## Work Experience
