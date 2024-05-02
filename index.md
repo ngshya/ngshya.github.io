@@ -22,7 +22,7 @@ I am currently employed by [Intesa Sanpaolo](https://www.intesasanpaolo.com/) in
       <td style="text-align: left;">2016/08<br/>Present</td>
       <td style="text-align: left;">
         Vertical AI Solutions Coordinator <br/>
-        <em>Data Science and AI, <a href="https://www.intesasanpaolo.com/">Intesa Sanpaolo</a></em>
+        <em>Data & Artificial Intelligence Office, <a href="https://www.intesasanpaolo.com/">Intesa Sanpaolo</a></em>
       </td>
     </tr>
     <tr>
