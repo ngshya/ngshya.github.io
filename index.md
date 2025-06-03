@@ -14,7 +14,7 @@ I am currently employed by [Intesa Sanpaolo](https://www.intesasanpaolo.com/) in
     <tr>
       <td style="text-align: left;">2016<br/>Present</td>
       <td style="text-align: left;">
-        Vertical AI Solutions Coordinator <br/>
+        Head of GenAI & ML Engineering <br/>
         <em>Data & Artificial Intelligence Office, <a href="https://www.intesasanpaolo.com/">Intesa Sanpaolo</a></em>
       </td>
     </tr>
