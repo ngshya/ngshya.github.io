@@ -50,7 +50,7 @@ I am currently employed by [Intesa Sanpaolo](https://www.intesasanpaolo.com/) in
 <table>
   <tbody>
     <tr>
-      <td style="text-align: left;">2021<br/>Present</td>
+      <td style="text-align: left;">2021<br/>2024</td>
       <td style="text-align: left;">
         Data Science Mentor (volunteer) <br/>
         <em><a href="https://sis.tech/">Sistech</a></em>
