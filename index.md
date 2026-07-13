@@ -4,7 +4,7 @@ title: Shuyi Yang
 
 ## About Me
 
-I am currently employed by [Intesa Sanpaolo](https://www.intesasanpaolo.com/) in the **Data & Artificial Intelligence Office**. My teams deliver vertical end-to-end AI solutions (design, exploration, implementation, deployment, maintenance) in different areas of the company, providing actionable insights by combining technical knowledge with the expertise of the business units.
+I am currently employed by [Intesa Sanpaolo](https://www.intesasanpaolo.com/) in the **Data & Artificial Intelligence Office**. I am the least skilled member of a unit of **(ML|AI) Engineers** that, in close collaboration with cross-functional teams, delivers end-to-end AI solutions (design, development, deployment, maintenance) across multiple projects in different areas of the company.
 
 
 ## Work Experience
