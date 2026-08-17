@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shuyi Yang | Head of GenAI &amp; ML Engineering | Intesa Sanpaolo</title>
+<meta name="description" content="Head of GenAI &amp; ML Engineering | Intesa Sanpaolo">
+<meta property="og:title" content="Shuyi Yang">
+<meta property="og:description" content="Head of GenAI &amp; ML Engineering | Intesa Sanpaolo">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://y.shuyi.it/">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F3F4EF;
+    --paper-alt:#EAEBE3;
+    --ink:#1B1E1B;
+    --ink-soft:#565A52;
+    --ink-faint:#8B8F84;
+    --rule:#D9D9CC;
+    --pine:#35635B;
+    --pine-dark:#23443E;
+    --pine-tint:#E3EBE7;
+    --ochre:#8A5A2B;
+    --ochre-tint:#F1E6D8;
+    --node-past:#B7AD98;
+    --radius:2px;
+    --maxw:900px;
+    --text-maxw:62ch;
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    *{animation-duration:0.01ms !important; animation-iteration-count:1 !important; transition-duration:0.01ms !important;}
+  }
+
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'IBM Plex Sans', system-ui, sans-serif;
+    font-size:16px;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  a{color:var(--pine-dark); text-decoration:none; border-bottom:1px solid var(--rule); transition:border-color .15s ease, color .15s ease;}
+  a:hover, a:focus-visible{color:var(--ochre); border-color:var(--ochre);}
+  a:focus-visible{outline:2px solid var(--pine); outline-offset:2px; border-radius:1px;}
+
+  .page{max-width:var(--maxw); margin:0 auto; padding:4rem 2rem 5rem;}
+
+  /* ---------- TOP HEADER ---------- */
+  .top-header{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    margin-bottom:5rem;
+  }
+  .mark{
+    width:64px; height:64px;
+    border:1.5px solid var(--ink);
+    border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:.85rem;
+    letter-spacing:.02em;
+    position:relative;
+    flex:none;
+    overflow:hidden;
+  }
+  .mark img{
+    width:100%; height:100%;
+    object-fit:cover;
+    display:block;
+    border-radius:50%;
+  }
+  .mark::after{
+    content:"";
+    position:absolute;
+    width:6px; height:6px;
+    background:var(--ochre);
+    border-radius:50%;
+    top:-3px; right:-3px;
+  }
+  .id-name{
+    font-family:'IBM Plex Serif', serif;
+    font-weight:600;
+    font-size:1.7rem;
+    line-height:1.15;
+    margin:1.1rem 0 0;
+  }
+  .id-tagline{
+    margin:.65rem 0 0;
+    font-family:'IBM Plex Serif', serif;
+    font-size:1rem;
+    line-height:1.5;
+    color:var(--ink-soft);
+    max-width:34ch;
+  }
+  .contacts-row{
+    list-style:none;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    row-gap:.5rem;
+    margin:1.8rem 0 0;
+    padding:0;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:.83rem;
+  }
+  .contacts-row li{display:flex; align-items:center;}
+  .contacts-row li:not(:last-child)::after{
+    content:"\00b7";
+    margin:0 .7rem;
+    color:var(--ink-faint);
+  }
+  .contacts-row a{color:var(--ink-soft); border-bottom:1px solid transparent;}
+  .contacts-row a:hover{color:var(--ochre); border-color:var(--ochre);}
+
+  /* ---------- SECTIONS ---------- */
+  section{margin-bottom:4.5rem; scroll-margin-top:2.5rem;}
+  section > h2{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:.8rem;
+    letter-spacing:.09em;
+    text-transform:uppercase;
+    color:var(--ink-faint);
+    margin:0 0 1.8rem;
+    padding-bottom:.7rem;
+    border-bottom:1px solid var(--rule);
+  }
+  section > h2 .cat-industry{color:var(--pine);}
+  section > h2 .cat-academic{color:var(--ochre);}
+
+  .lede{font-size:1.02rem; color:var(--ink-soft);}
+  .lede a{color:var(--pine-dark);}
+
+  /* ---------- TIMELINE: two independent columns + a fixed central ruler ---------- */
+  .timeline{
+    position:relative;
+    display:grid;
+    grid-template-columns:1fr 40px 1fr;
+    column-gap:0;
+    align-items:start;
+  }
+  .timeline::before{
+    content:"";
+    position:absolute;
+    left:50%; top:.3rem; bottom:.3rem;
+    width:1.5px;
+    transform:translateX(-50%);
+    background:var(--rule);
+    z-index:0;
+  }
+  .t-highlight{
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    top:0; height:0;
+    width:3px;
+    border-radius:3px;
+    background:linear-gradient(to bottom, var(--cat-tint, var(--pine-tint)), var(--cat-color, var(--pine)) 18%, var(--cat-color, var(--pine)) 100%);
+    opacity:0;
+    pointer-events:none;
+    z-index:1;
+    transition:opacity .2s ease, top .28s cubic-bezier(.4,0,.2,1), height .28s cubic-bezier(.4,0,.2,1);
+  }
+  .t-highlight.active{opacity:1;}
+  .t-highlight.cat-industry{--cat-color:var(--pine); --cat-tint:var(--pine-tint);}
+  .t-highlight.cat-academic{--cat-color:var(--ochre); --cat-tint:var(--ochre-tint);}
+
+  .t-beam{
+    position:absolute;
+    inset:0;
+    width:100%; height:100%;
+    overflow:visible;
+    pointer-events:none;
+    z-index:0;
+  }
+  #tlBeamShape{
+    opacity:0;
+    transition:opacity .25s ease;
+  }
+  #tlBeamShape.active{opacity:1;}
+
+  .t-tick{
+    position:absolute;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width:6px; height:6px;
+    border-radius:50%;
+    background:var(--paper);
+    border:1.5px solid var(--node-past);
+    z-index:1;
+    pointer-events:none;
+  }
+
+  .t-col{
+    grid-row:1;
+    display:flex;
+    flex-direction:column;
+    min-width:0;
+    position:relative;
+    z-index:2;
+  }
+  .t-col-left{grid-column:1;}
+  .t-col-right{grid-column:3;}
+
+  .t-col > *{margin-bottom:2.6rem;}
+  .t-col > *:last-child{margin-bottom:0;}
+
+  .t-card{max-width:100%;}
+  .t-col-left .t-card{text-align:right; padding-right:2.6rem;}
+  .t-col-right .t-card{text-align:left; padding-left:2.6rem;}
+
+  .t-date{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:.78rem;
+    color:var(--ink-faint);
+    display:block;
+    margin-bottom:.3rem;
+    transition:color .2s ease;
+  }
+  .t-card.current .t-date{color:var(--pine-dark); font-weight:500;}
+  .t-card:hover .t-date{color:var(--pine-dark);}
+
+  .t-role{
+    font-family:'IBM Plex Serif', serif;
+    font-size:1.08rem;
+    font-weight:500;
+    margin:0 0 .3rem;
+    transition:color .15s ease;
+  }
+  .t-card.cat-industry .t-role{color:var(--pine-dark);}
+  .t-card.cat-academic .t-role{color:var(--ochre);}
+
+  .t-org{font-size:.92rem; color:var(--ink-soft); margin:0;}
+  .t-org a{color:var(--ink-soft); border-color:var(--rule);}
+  .t-org a:hover{color:var(--ochre); border-color:var(--ochre);}
+  .t-note{font-weight:400; color:var(--ink-faint); font-size:.85em;}
+  .t-desc{
+    font-size:.86rem;
+    color:var(--ink-faint);
+    margin:.5rem 0 0;
+    line-height:1.5;
+  }
+
+  /* minor entries: secondary / volunteer / one-off roles, quieter, collapsible */
+  .t-outer.minor{
+    display:grid;
+    grid-template-rows:0fr;
+    opacity:0;
+    margin-bottom:0;
+    transition:grid-template-rows .45s ease, opacity .3s ease, margin-bottom .45s ease;
+  }
+  .timeline.expanded .t-outer.minor{
+    grid-template-rows:1fr;
+    opacity:.6;
+    margin-bottom:2.6rem;
+  }
+  .t-outer.minor .t-collapse{min-height:0; overflow:hidden;}
+
+  @keyframes tFlash{
+    0%{background:var(--pine-tint); box-shadow:0 0 0 6px var(--pine-tint);}
+    100%{background:transparent; box-shadow:0 0 0 0 transparent;}
+  }
+  .t-card.flash-in{
+    animation:tFlash 1.1s ease;
+    border-radius:4px;
+  }
+
+  .tl-toggle{
+    display:flex;
+    align-items:center;
+    gap:.6rem;
+    margin:3rem auto 0;
+    padding:.5rem .9rem;
+    background:none;
+    border:none;
+    cursor:pointer;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:.8rem;
+    color:var(--pine-dark);
+  }
+  .tl-toggle:hover{color:var(--ochre);}
+  .tl-toggle:hover .tl-toggle-icn{border-color:var(--ochre);}
+  .tl-toggle:focus-visible{outline:2px solid var(--pine); outline-offset:3px; border-radius:1px;}
+  .tl-toggle-icn{
+    position:relative;
+    width:18px; height:18px;
+    border:1px solid var(--pine);
+    border-radius:50%;
+    flex:none;
+    transition:border-color .15s ease, transform .3s ease;
+  }
+  .tl-toggle-icn::before,
+  .tl-toggle-icn::after{
+    content:"";
+    position:absolute;
+    background:currentColor;
+    top:50%; left:50%;
+    transform:translate(-50%,-50%);
+  }
+  .tl-toggle-icn::before{width:8px; height:1px;}
+  .tl-toggle-icn::after{width:1px; height:8px; transition:transform .3s ease, opacity .3s ease;}
+  .tl-toggle[aria-expanded="true"] .tl-toggle-icn::after{transform:translate(-50%,-50%) rotate(90deg); opacity:0;}
+
+  footer{
+    border-top:1px solid var(--rule);
+    padding:2.5rem 0 0;
+    text-align:center;
+  }
+  footer p{
+    font-family:'IBM Plex Serif', serif;
+    font-style:italic;
+    color:var(--ink-soft);
+    font-size:.95rem;
+    margin:0;
+  }
+
+  /* reveal on scroll */
+  .reveal{opacity:0; transform:translateY(10px); transition:opacity .5s ease, transform .5s ease;}
+  .reveal.in{opacity:1; transform:none;}
+
+  /* ---------- RESPONSIVE ---------- */
+  @media (max-width: 720px){
+    .page{padding:2.6rem 1.3rem 3.5rem;}
+    .top-header{margin-bottom:3.2rem;}
+    .id-name{font-size:1.4rem;}
+    section{margin-bottom:3.2rem;}
+
+    .timeline::before{left:13px; transform:none;}
+    .t-highlight{left:13px; transform:none;}
+    .t-tick{left:13px; transform:translate(-50%, -50%);}
+
+    .timeline{display:flex; flex-direction:column; grid-template-columns:none;}
+    .t-col-left, .t-col-right{display:contents;}
+    .t-col-left .t-card, .t-col-right .t-card{
+      text-align:left !important;
+      padding-left:1.9rem !important;
+      padding-right:0 !important;
+    }
+    .timeline > .t-outer.minor, .timeline > .t-card{margin-bottom:2.6rem;}
+    .timeline > .t-outer.minor:last-child, .timeline > .t-card:last-child{margin-bottom:0;}
+  }
+
+  @media print{
+    a{border-bottom:none; color:var(--ink);}
+  }
+</style>
+</head>
+<body>
+
+<div class="page">
+
+  <header class="top-header reveal">
+    <div class="mark"><img src="data:image/jpeg;base64,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" alt="Shuyi Yang"></div>
+    <h1 class="id-name">Shuyi Yang</h1>
+    <p class="id-tagline">I love building AI solutions to solve real world problems.</p>
+    <ul class="contacts-row">
+      <li><a href="mailto:shuyi.yang@intesasanpaolo.com">E-mail</a></li>
+      <li><a href="https://www.linkedin.com/in/shuyiyang/" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="https://scholar.google.com/citations?user=3XjwlYwAAAAJ" target="_blank" rel="noopener">Scholar</a></li>
+      <li><a href="https://github.com/ngshya" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="https://medium.com/@ngshya" target="_blank" rel="noopener">Medium</a></li>
+    </ul>
+  </header>
+
+  <main>
+
+    <section id="about" class="reveal">
+      <h2>About Me</h2>
+      <p class="lede">
+        I currently have the privilege of leading a unit of exceptional (ML | AI) Engineers in the Data &amp;
+        Artificial Intelligence Office of <a href="https://www.intesasanpaolo.com/" target="_blank" rel="noopener">Intesa Sanpaolo</a>.
+        Beyond AI and banking, my background also spans mathematics, research and teaching. I speak Italian, English and
+        Mandarin Chinese fluently, plus <a href="https://en.wikipedia.org/wiki/Wenzhounese" target="_blank" rel="noopener">Wenzhounese</a>,
+        widely considered the hardest dialect in China. I love exploring the world and good food.
+      </p>
+    </section>
+
+    <section id="experience" class="reveal">
+      <h2><span class="cat-industry">Industry</span> &amp; <span class="cat-academic">Academia</span></h2>
+
+      <div class="timeline" id="expTimeline">
+        <div class="t-highlight" id="tlHighlight"></div>
+        <svg class="t-beam" id="tlBeam" aria-hidden="true">
+          <defs>
+            <linearGradient id="tlBeamGradientIndustry" gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stop-color="var(--pine)" stop-opacity="0.32"/>
+              <stop offset="100%" stop-color="var(--pine)" stop-opacity="0.02"/>
+            </linearGradient>
+            <linearGradient id="tlBeamGradientAcademic" gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stop-color="var(--ochre)" stop-opacity="0.32"/>
+              <stop offset="100%" stop-color="var(--ochre)" stop-opacity="0.02"/>
+            </linearGradient>
+          </defs>
+          <polygon id="tlBeamShape" points="" fill="url(#tlBeamGradientIndustry)"/>
+        </svg>
+
+        <div class="t-col t-col-left">
+
+          <div class="t-card current cat-industry" data-start="2016" data-end="present" style="order:0">
+            <span class="t-date">2016 &ndash; Present</span>
+            <p class="t-role">Head of GenAI &amp; ML Engineering</p>
+            <p class="t-org">Data &amp; Artificial Intelligence Office, <a href="https://www.intesasanpaolo.com/" target="_blank" rel="noopener">Intesa Sanpaolo</a></p>
+            <p class="t-desc">Grew into the role from within: intern, then junior, mid and senior data scientist, then team lead, up to the current position. Now steering strategy, technical direction, and the scaling of AI project development across the bank.</p>
+          </div>
+
+          <div class="t-outer minor" aria-hidden="true" style="order:2">
+            <div class="t-collapse">
+              <div class="t-card cat-industry" data-start="2021" data-end="2024">
+                <span class="t-date">2021 &ndash; 2024</span>
+                <p class="t-role">Data Science Mentor</p>
+                <p class="t-org"><a href="https://sis.tech/" target="_blank" rel="noopener" tabindex="-1">Sistech</a> <span class="t-note">(volunteer)</span></p>
+                <p class="t-desc">Empowering uprooted and displaced women through data science mentoring activities.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="t-card cat-academic" data-start="2019" data-end="2023" style="order:4">
+            <span class="t-date">2019 &ndash; 2023</span>
+            <p class="t-role">PhD in Modeling and Data Science</p>
+            <p class="t-org"><a href="https://www.cs.unito.it/do/home.pl" target="_blank" rel="noopener">Computer Science Department, University of Turin</a></p>
+            <p class="t-desc">Research on semi-supervised learning, fairness in machine learning, and differential privacy.</p>
+          </div>
+
+          <div class="t-outer minor" aria-hidden="true" style="order:7">
+            <div class="t-collapse">
+              <div class="t-card cat-academic" data-start="2015" data-end="2016">
+                <span class="t-date">2015 &ndash; 2016</span>
+                <p class="t-role">Strategy Thinker</p>
+                <p class="t-org">Innovation and Competitiveness Office, <a href="https://www.unito.it/" target="_blank" rel="noopener" tabindex="-1">University of Turin</a></p>
+                <p class="t-desc">Studying how digital transformation, and AI in particular, could reshape work and society.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="t-outer minor" aria-hidden="true" style="order:8">
+            <div class="t-collapse">
+              <div class="t-card cat-academic" data-start="2011" data-end="2016">
+                <span class="t-date">2011 &ndash; 2016</span>
+                <p class="t-role">MSc Mathematics</p>
+                <p class="t-org"><a href="https://dipmath.campusnet.unito.it/do/home.pl" target="_blank" rel="noopener" tabindex="-1">Department of Mathematics, University of Turin</a></p>
+                <p class="t-desc">Bachelor's degree in Pure Mathematics, followed by a Master's degree in Modeling and Probability, with a thesis on random graphs.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="t-outer minor" aria-hidden="true" style="order:10">
+            <div class="t-collapse">
+              <div class="t-card cat-academic" data-start="2008" data-end="2014">
+                <span class="t-date">2008 &ndash; 2014</span>
+                <p class="t-role">Mathematical Olympiad</p>
+                <p class="t-org"><a href="https://umi-ciim.it/" target="_blank" rel="noopener" tabindex="-1">Unione Matematica Italiana</a>, <a href="http://www.associazionesubalpinamathesis.it/en/" target="_blank" rel="noopener" tabindex="-1">Associazione Subalpina Mathesis</a></p>
+                <p class="t-desc">As a contestant, won 4 medals in the national individual competition and ranked 21st in the national team competition; also recognized by the Bank of Italy for solid results in secondary school mathematics. As a trainer, coached high school students in mathematical problem-solving strategies for the national olympiad.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="t-col t-col-right">
+
+          <div class="t-card cat-academic" data-start="2024" data-end="2025" style="order:1">
+            <span class="t-date">2024 &ndash; 2025</span>
+            <p class="t-role">Visiting Scholar</p>
+            <p class="t-org"><a href="https://sky.cs.berkeley.edu/" target="_blank" rel="noopener">Sky Computing Lab</a>, <a href="https://www.berkeley.edu/" target="_blank" rel="noopener">UC Berkeley</a></p>
+            <p class="t-desc">Research focused primarily on agentic AI applications for industry.</p>
+          </div>
+
+          <div class="t-card cat-academic" data-start="2023" data-end="2023" style="order:3">
+            <span class="t-date">2023</span>
+            <p class="t-role">Adjunct Professor</p>
+            <p class="t-org">II level Master <a href="https://www.polito.it/ateneo/comunicazione-e-ufficio-stampa/poliflash/humanaize-il-primo-master-per-avvicinare-laureate-e-laureati" target="_blank" rel="noopener">HumanAIze</a>, <a href="https://www.polito.it/" target="_blank" rel="noopener">Polytechnic University of Turin</a></p>
+            <p class="t-desc">Mathematics foundations for artificial intelligence and machine learning.</p>
+          </div>
+
+          <div class="t-outer minor" aria-hidden="true" style="order:5">
+            <div class="t-collapse">
+              <div class="t-card cat-industry" data-start="2018" data-end="2019">
+                <span class="t-date">2018 &ndash; 2019</span>
+                <p class="t-role">Textbooks Proofreader</p>
+                <p class="t-org"><a href="https://www.loescher.it/" target="_blank" rel="noopener" tabindex="-1">Loescher Editore</a></p>
+                <p class="t-desc">Reviewed and proposed exercises for high school mathematics textbooks.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="t-card cat-academic" data-start="2016" data-end="2016" style="order:6">
+            <span class="t-date">2016</span>
+            <p class="t-role">Research Assistant</p>
+            <p class="t-org"><a href="http://www.igier.unibocconi.it/" target="_blank" rel="noopener">IGIER, Bocconi University</a></p>
+            <p class="t-desc">Developed an early warning system integrating payment network effects to predict corporate defaults.</p>
+          </div>
+
+          <div class="t-outer minor" aria-hidden="true" style="order:9">
+            <div class="t-collapse">
+              <div class="t-card cat-academic" data-start="2013" data-end="2016">
+                <span class="t-date">2013 &ndash; 2016</span>
+                <p class="t-role">MA Economics</p>
+                <p class="t-org"><a href="https://www.carloalberto.org/education/allievi-honors-program/overview/" target="_blank" rel="noopener" tabindex="-1">Allievi Honors Program, Collegio Carlo Alberto</a></p>
+                <p class="t-desc">A highly selective honors program for the University of Turin and Politecnico di Torino's top students, known for demanding coursework and exams.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="t-outer minor" aria-hidden="true" style="order:11">
+            <div class="t-collapse">
+              <div class="t-card cat-academic" data-start="2011" data-end="2014">
+                <span class="t-date">2011 &ndash; 2014</span>
+                <p class="t-role">INDAM Scholarship</p>
+                <p class="t-org">Istituto Nazionale di Alta Matematica &laquo;F. Severi&raquo;</p>
+                <p class="t-desc">A national scholarship for mathematics students, awarded following an 11th-place ranking in the national contest.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="t-outer minor" aria-hidden="true" style="order:12">
+            <div class="t-collapse">
+              <div class="t-card cat-academic" data-start="2012" data-end="2013">
+                <span class="t-date">2012 &ndash; 2013</span>
+                <p class="t-role">Teaching Assistant</p>
+                <p class="t-org"><a href="https://dipmath.campusnet.unito.it/do/home.pl" target="_blank" rel="noopener" tabindex="-1">Department of Mathematics, University of Turin</a></p>
+                <p class="t-desc">Tutored students on homework exercises as part of the Department of Mathematics' tutoring service; contributed to a project on making mathematics materials accessible to visually impaired students.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <button class="tl-toggle" id="tlToggle" type="button" aria-expanded="false" aria-controls="expTimeline">
+        <span class="tl-toggle-icn" aria-hidden="true"></span>
+        <span class="tl-toggle-label">Show additional experience</span>
+      </button>
+    </section>
+
+    <footer>
+      <p>"What the caterpillar calls the end, the rest of the world calls a butterfly." &mdash; Lao Tze</p>
+    </footer>
+
+  </main>
+
+</div>
+
+<script>
+  // scroll reveal
+  const revealEls = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); });
+  }, { threshold: 0.1 });
+  revealEls.forEach(el => io.observe(el));
+
+  // experience timeline: expand / collapse minor roles
+  const tlToggle = document.getElementById('tlToggle');
+  const expTimeline = document.getElementById('expTimeline');
+  if (tlToggle && expTimeline){
+    const minorLinks = expTimeline.querySelectorAll('.t-outer.minor a');
+    tlToggle.addEventListener('click', () => {
+      const expanded = expTimeline.classList.toggle('expanded');
+      tlToggle.setAttribute('aria-expanded', String(expanded));
+      tlToggle.querySelector('.tl-toggle-label').textContent = expanded ? 'Show less' : 'Show additional experience';
+      expTimeline.querySelectorAll('.t-outer.minor').forEach(el => el.setAttribute('aria-hidden', String(!expanded)));
+      minorLinks.forEach(a => { if (expanded) a.removeAttribute('tabindex'); else a.setAttribute('tabindex','-1'); });
+
+      if (expanded){
+        // briefly flash the newly-revealed cards so they're easy to spot
+        const revealedCards = expTimeline.querySelectorAll('.t-outer.minor .t-card');
+        revealedCards.forEach(card => {
+          card.classList.remove('flash-in');
+          void card.offsetWidth; // restart animation even if clicked again quickly
+          card.classList.add('flash-in');
+          card.addEventListener('animationend', () => card.classList.remove('flash-in'), { once: true });
+        });
+      }
+      if (!expanded){
+        tlToggle.scrollIntoView({block:'nearest'});
+      }
+
+      setTimeout(relayout, 480);
+    });
+  }
+
+  // timeline: a fixed year ruler (evenly divided across the whole natural
+  // height of the card columns, one equal segment per year, positions fixed
+  // regardless of which card is hovered) plus, on hover, a soft gradient beam
+  // connecting the hovered block to the exact stretch of the ruler its dates
+  // cover. "Present" always resolves to the current calendar year, so the
+  // ruler extends by itself as time passes.
+  let relayout = () => {};
+  if (expTimeline){
+    const highlight = document.getElementById('tlHighlight');
+    const beamShape = document.getElementById('tlBeamShape');
+    const cards = Array.from(expTimeline.querySelectorAll('.t-card'));
+    const CURRENT_YEAR = new Date().getFullYear();
+
+    function parseYear(v){
+      return v === 'present' ? CURRENT_YEAR : parseInt(v, 10);
+    }
+
+    const dated = cards.filter(c => c.dataset.start);
+    const MIN_YEAR = Math.min(...dated.map(c => parseYear(c.dataset.start)));
+    const MAX_YEAR = Math.max(CURRENT_YEAR, ...dated.map(c => parseYear(c.dataset.end)));
+
+    let ticksLayer = document.getElementById('tlTicks');
+    if (!ticksLayer){
+      ticksLayer = document.createElement('div');
+      ticksLayer.id = 'tlTicks';
+      expTimeline.appendChild(ticksLayer);
+    }
+
+    function isMobile(){
+      return window.matchMedia('(max-width: 720px)').matches;
+    }
+    function centerX(){
+      return isMobile() ? 13 : expTimeline.getBoundingClientRect().width / 2;
+    }
+
+    // Fixed scale: divide the timeline's current natural height evenly across
+    // every year from MIN_YEAR to MAX_YEAR, so ticks sit at constant positions
+    // that don't move when a card is hovered.
+    function yearToY(year){
+      const total = expTimeline.clientHeight;
+      const span = MAX_YEAR - MIN_YEAR;
+      return total * (MAX_YEAR - year) / span;
+    }
+
+    function renderYearTicks(){
+      ticksLayer.innerHTML = '';
+      for (let year = MIN_YEAR; year <= MAX_YEAR; year++){
+        const tick = document.createElement('span');
+        tick.className = 't-tick';
+        tick.style.top = yearToY(year) + 'px';
+        tick.setAttribute('aria-hidden', 'true');
+        ticksLayer.appendChild(tick);
+      }
+    }
+
+    function showHighlight(card){
+      const roleEl = card.querySelector('.t-role');
+      if (!roleEl || !card.dataset.start) return;
+
+      const isAcademic = card.classList.contains('cat-academic');
+      const startYear = parseYear(card.dataset.start);
+      const endYear = parseYear(card.dataset.end);
+      const y1 = yearToY(endYear); // near edge of the end year's own tract (top)
+      // A tract for year Y runs from tick(Y-1) to tick(Y), so an experience
+      // spanning startYear..endYear covers every tract from startYear through
+      // endYear inclusive — never fewer, never a degenerate single point.
+      const y2 = Math.min(yearToY(startYear - 1), expTimeline.clientHeight);
+
+      // ruler segment, colored to match the card's category
+      highlight.classList.toggle('cat-academic', isAcademic);
+      highlight.classList.toggle('cat-industry', !isAcademic);
+      highlight.style.top = y1 + 'px';
+      highlight.style.height = Math.max(2, y2 - y1) + 'px';
+      highlight.classList.add('active');
+
+      // gradient beam: a single point near the card's title (with a small
+      // gap so it doesn't touch the text), fanning out to that ruler segment.
+      const tlRect = expTimeline.getBoundingClientRect();
+      const cardRect = card.getBoundingClientRect();
+      const roleRect = roleEl.getBoundingClientRect();
+      const cx = centerX();
+      const GAP = 10;
+      // Determine which side the text actually renders on geometrically
+      // (not from a class), so it stays correct on the mobile single column.
+      const cardCenterX = (cardRect.left + cardRect.right) / 2 - tlRect.left;
+      const textLeftOfLine = cardCenterX < cx;
+      const cs = getComputedStyle(card);
+      const cardPad = parseFloat(textLeftOfLine ? cs.paddingRight : cs.paddingLeft) || 0;
+      const edgeX = (textLeftOfLine
+        ? cardRect.right - cardPad + GAP
+        : cardRect.left + cardPad - GAP) - tlRect.left;
+      const pointY = (roleRect.top + roleRect.height / 2) - tlRect.top;
+
+      beamShape.setAttribute('points',
+        `${edgeX},${pointY} ${cx},${y1} ${cx},${y2}`
+      );
+      beamShape.setAttribute('fill', isAcademic ? 'url(#tlBeamGradientAcademic)' : 'url(#tlBeamGradientIndustry)');
+      const gradient = document.getElementById(isAcademic ? 'tlBeamGradientAcademic' : 'tlBeamGradientIndustry');
+      gradient.setAttribute('x1', edgeX);
+      gradient.setAttribute('y1', pointY);
+      gradient.setAttribute('x2', cx);
+      gradient.setAttribute('y2', (y1 + y2) / 2);
+      beamShape.classList.add('active');
+    }
+
+    function hideHighlight(){
+      highlight.classList.remove('active');
+      beamShape.classList.remove('active');
+    }
+
+    // Some laptops (touchscreen + mouse/trackpad) report touch capability
+    // even when the person is using a mouse, so detecting "touch device"
+    // once at load time and disabling hover for the whole session is wrong.
+    // Instead: real mouse hover always stays on (checked per-event via
+    // pointerType, not per-device), and a separate touch tracker runs
+    // alongside it — the two simply never fire for the same interaction.
+    cards.forEach(card => {
+      if (!card.dataset.start) return;
+      card.addEventListener('pointerenter', (e) => {
+        if (e.pointerType === 'mouse') showHighlight(card);
+      });
+      card.addEventListener('pointerleave', (e) => {
+        if (e.pointerType === 'mouse') hideHighlight();
+      });
+      card.addEventListener('focusin', () => showHighlight(card));
+      card.addEventListener('focusout', hideHighlight);
+    });
+
+    // Touch: track the finger live (including while dragging to scroll), so
+    // the beam appears for whatever block is currently under it without
+    // needing a deliberate, separate tap.
+    let touchActiveCard = null;
+
+    function setTouchCard(card){
+      if (card === touchActiveCard) return;
+      if (touchActiveCard) touchActiveCard.classList.remove('is-touch-active');
+      touchActiveCard = card;
+      if (touchActiveCard){
+        touchActiveCard.classList.add('is-touch-active');
+        showHighlight(touchActiveCard);
+      } else {
+        hideHighlight();
+      }
+    }
+
+    function handleTouch(e){
+      const touch = e.touches && e.touches[0];
+      if (!touch) return;
+      const el = document.elementFromPoint(touch.clientX, touch.clientY);
+      const card = el ? el.closest('.t-card') : null;
+      setTouchCard(card && card.dataset.start ? card : null);
+    }
+
+    document.addEventListener('touchstart', handleTouch, { passive: true });
+    document.addEventListener('touchmove', handleTouch, { passive: true });
+    document.addEventListener('touchend', () => setTouchCard(null), { passive: true });
+    document.addEventListener('touchcancel', () => setTouchCard(null), { passive: true });
+
+    relayout = renderYearTicks;
+    relayout();
+    let resizeTimer;
+    window.addEventListener('resize', () => {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(relayout, 150);
+    });
+    if (document.fonts && document.fonts.ready){
+      document.fonts.ready.then(relayout);
+    }
+  }
+</script>
+
+</body>
+</html>
